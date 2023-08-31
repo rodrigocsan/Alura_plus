@@ -24,12 +24,12 @@ body {
 .container {
   height: 100vh;
   display: grid;
-  grid-template-columns: 50%, 50%;
+  grid-template-columns: 50% 50%;
 }
 
 .container__botao {
   background-color: var(--botao-roxo);
-  
+
   padding: 1em;
   border-radius: 4px;
   color: var(--branco-principal);
