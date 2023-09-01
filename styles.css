@@ -53,3 +53,20 @@ body {
   color: var(--cinza-secundario);
   color: pink;
 }
+
+.container_caixa{
+  margin: 0 6em;
+}
+
+.container_imagem{
+  margin: 1em 0 2em 0;
+}
+
+.principal{
+  align-items: center;
+  text-align: center;
+}
+
+.container__botao{
+  margin-bottom: 1em;
+}
