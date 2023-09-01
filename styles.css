@@ -1,16 +1,17 @@
-:root {
+:root { 
+  /* Varivaeis */
   --branco-principal: #FFFFFF;
   --cinza-secundario: #C0C0C0;
-  --botao-roxo: #9d00fe;
+  --botao-azul: #167BF7;
   --cor-de-fundo: #00030C;
-  --fonte-principal: 'Inter';
+  --fonte-principal: 'Inter', sans-serif;    
   --botao-azul-efeito: #3c92fa;
 }
 
 body {
   background-color: var(--cor-de-fundo);
   color: var(--branco-principal);
-  font-family: var(--fonte-principal);
+  font-family: var(--fonte-principal);  
   font-size: 16px;
   font-weight: 400;
 }
@@ -18,18 +19,17 @@ body {
 .principal {
   background-image: url("img/Background.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: contain; 
 }
 
 .container {
   height: 100vh;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%;  
 }
 
 .container__botao {
-  background-color: var(--botao-roxo);
-
+  background-color: var(--botao-azul);
   padding: 1em;
   border-radius: 4px;
   color: var(--branco-principal);
@@ -37,7 +37,7 @@ body {
   display: block;  
 }
 
-.botao_secundario{
+.botao_secundario {
   background-color: transparent;
   border: 2px solid white;
   border: 2px solid var(--branco-principal);
